@@ -1,0 +1,831 @@
+.tile,
+.listconsultation-tile {
+	background-color: #f3f6f9;
+	border-radius: 10px;
+	padding: 24px;
+}
+
+.ip__status-title,
+.auditbytypetax-title,
+.declaration-title {
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 125%;
+	margin-bottom: 24px;
+}
+@media screen and (min-width: 768px) {
+	.ip__status-title,
+	.auditbytypetax-title,
+	.declaration-title {
+		font-size: 36px;
+	}
+}
+@media screen and (min-width: 1024px) {
+	.ip__status-title,
+	.auditbytypetax-title,
+	.declaration-title {
+		font-weight: 700;
+		font-size: 48px;
+		line-height: 135%;
+		margin-bottom: 38px;
+		max-width: 749px;
+	}
+}
+.ip__status-tile,
+.auditbytypetax-tile,
+.declaration-tile {
+	text-align: center;
+	padding-top: 29px;
+	padding-bottom: 28px;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 130%;
+	color: #485b63;
+}
+@media screen and (min-width: 1024px) {
+	.ip__status-tile,
+	.auditbytypetax-tile,
+	.declaration-tile {
+		max-width: 400px;
+		padding-top: 24px;
+		padding-bottom: 25px;
+		font-weight: 400;
+		font-size: 22px;
+		line-height: 145%;
+		color: #0b2128;
+	}
+}
+
+.ip__open-title {
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 125%;
+	margin-bottom: 32px;
+}
+@media screen and (min-width: 768px) {
+	.ip__open-title {
+		font-size: 36px;
+	}
+}
+@media screen and (min-width: 1024px) {
+	.ip__open-title {
+		font-weight: 700;
+		font-size: 48px;
+		line-height: 135%;
+		margin-bottom: 38px;
+	}
+}
+.ip__open-tile {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+}
+@media screen and (min-width: 1024px) {
+	.ip__open-tile {
+		padding: 48px 40px 56px;
+	}
+}
+.ip__open-tile_title {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 130%;
+	font-weight: 600;
+	margin-bottom: 16px;
+}
+@media screen and (min-width: 1024px) {
+	.ip__open-tile_title {
+		font-weight: 600;
+		font-size: 32px;
+		line-height: 130%;
+	}
+}
+.ip__open-tile_text {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 145%;
+	color: #485b63;
+	margin-bottom: 16px;
+}
+@media screen and (min-width: 1024px) {
+	.ip__open-tile_text {
+		margin-bottom: 40px;
+	}
+}
+.ip__open-tile_link {
+	height: 69px;
+	background-color: #54b7e3;
+	width: 100%;
+	border-radius: 10px;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 145%;
+	color: #fcfdff;
+}
+@media screen and (min-width: 1024px) {
+	.ip__open-tile_link {
+		color: #0b2128;
+		width: auto;
+		padding-left: 40px;
+		padding-right: 40px;
+		border: 1px solid #ccd1d4;
+		background-color: transparent;
+	}
+}
+
+.vzone-title,
+.taxplan-title,
+.needforaccounting-title,
+.featuresofaccounting-title,
+.needoftaxaudit-title,
+.jaraaccounting-title,
+.declorationtaxingeorgia-title,
+.ndsingeorgia-title {
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 125%;
+	margin-bottom: 24px;
+}
+@media screen and (min-width: 768px) {
+	.vzone-title,
+	.taxplan-title,
+	.needforaccounting-title,
+	.featuresofaccounting-title,
+	.needoftaxaudit-title,
+	.jaraaccounting-title,
+	.declorationtaxingeorgia-title,
+	.ndsingeorgia-title {
+		font-size: 36px;
+	}
+}
+@media screen and (min-width: 1024px) {
+	.vzone-title,
+	.taxplan-title,
+	.needforaccounting-title,
+	.featuresofaccounting-title,
+	.needoftaxaudit-title,
+	.jaraaccounting-title,
+	.declorationtaxingeorgia-title,
+	.ndsingeorgia-title {
+		font-weight: 700;
+		font-size: 48px;
+		line-height: 135%;
+		margin-bottom: 38px;
+		max-width: 749px;
+	}
+}
+.vzone-tile,
+.taxplan-tile,
+.needforaccounting-tile,
+.featuresofaccounting-tile,
+.needoftaxaudit-tile,
+.jaraaccounting-tile,
+.declorationtaxingeorgia-tile,
+.ndsingeorgia-tile {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-pack: start;
+	-ms-flex-pack: start;
+	justify-content: start;
+}
+@media screen and (min-width: 1024px) {
+	.vzone-tile,
+	.taxplan-tile,
+	.needforaccounting-tile,
+	.featuresofaccounting-tile,
+	.needoftaxaudit-tile,
+	.jaraaccounting-tile,
+	.declorationtaxingeorgia-tile,
+	.ndsingeorgia-tile {
+		padding: 36px 24px;
+	}
+}
+.vzone-tile_title,
+.taxplan-tile_title,
+.needforaccounting-tile_title,
+.featuresofaccounting-tile_title,
+.needoftaxaudit-tile_title,
+.jaraaccounting-tile_title,
+.declorationtaxingeorgia-tile_title,
+.ndsingeorgia-tile_title {
+	font-weight: 600;
+	font-size: 22px;
+	line-height: 130%;
+	margin-bottom: 16px;
+}
+@media screen and (min-width: 1024px) {
+	.vzone-tile_title,
+	.taxplan-tile_title,
+	.needforaccounting-tile_title,
+	.featuresofaccounting-tile_title,
+	.needoftaxaudit-tile_title,
+	.jaraaccounting-tile_title,
+	.declorationtaxingeorgia-tile_title,
+	.ndsingeorgia-tile_title {
+		font-weight: 600;
+		font-size: 32px;
+		line-height: 130%;
+	}
+}
+.vzone-tile_text,
+.taxplan-tile_text,
+.needforaccounting-tile_text,
+.featuresofaccounting-tile_text,
+.needoftaxaudit-tile_text,
+.jaraaccounting-tile_text,
+.declorationtaxingeorgia-tile_text,
+.ndsingeorgia-tile_text {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 145%;
+	color: #485b63;
+}
+
+@media screen and (min-width: 1024px) {
+	.taxplan-title {
+		max-width: 665px;
+	}
+}
+@media screen and (min-width: 1024px) {
+	.taxplan-tile_title {
+		font-weight: 600;
+		font-size: 24px;
+		line-height: 130%;
+	}
+}
+
+.listconsultation__title,
+.timedeclaration__title {
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 125%;
+	margin-bottom: 24px;
+}
+@media screen and (min-width: 768px) {
+	.listconsultation__title,
+	.timedeclaration__title {
+		font-size: 30px;
+	}
+}
+@media screen and (min-width: 1024px) {
+	.listconsultation-tile,
+	.timedeclaration-tile {
+		padding: 0;
+		max-width: 365px;
+	}
+}
+.listconsultation-tile_link-desktop,
+.timedeclaration-tile_link-desktop {
+	display: none;
+}
+@media screen and (min-width: 1024px) {
+	.listconsultation-tile_link-desktop,
+	.timedeclaration-tile_link-desktop {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-align: center;
+		-ms-flex-align: center;
+		align-items: center;
+		gap: 8px;
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 145%;
+		color: #54b7e3;
+	}
+}
+.listconsultation-tile_link-mobile,
+.timedeclaration-tile_link-mobile {
+	width: 100%;
+	height: 69px;
+	justify-content: center;
+	background-color: #54b7e3;
+	margin-top: 32px;
+	border-radius: 10px;
+	color: #fcfdff;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 145%;
+}
+@media screen and (min-width: 1024px) {
+	.listconsultation-tile_link-mobile,
+	.timedeclaration-tile_link-mobile {
+		display: none;
+	}
+}
+.listconsultation-tile_title,
+.timedeclaration-tile_title {
+	font-weight: 600;
+	font-size: 22px;
+	line-height: 130%;
+	line-height: 125%;
+	margin-bottom: 16px;
+}
+@media screen and (min-width: 1024px) {
+	.listconsultation-tile_title,
+	.timedeclaration-tile_title {
+		font-weight: 600;
+		font-size: 24px;
+		line-height: 130%;
+		margin-bottom: 10px;
+	}
+}
+.listconsultation-tile_text,
+.timedeclaration-tile_text {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 145%;
+	color: #485b63;
+}
+@media screen and (min-width: 1024px) {
+	.listconsultation__wrapper,
+	.timedeclaration__wrapper {
+		padding: 56px 70px 70px;
+		background-color: #f3f6f9;
+		border-radius: 10px;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+	}
+}
+@media screen and (min-width: 1024px) {
+	.listconsultation__wrapper-left,
+	.timedeclaration__wrapper-left {
+		margin-right: 45px;
+	}
+}
+@media screen and (min-width: 1440px) {
+	.listconsultation__wrapper-left,
+	.timedeclaration__wrapper-left {
+		margin-right: 90px;
+	}
+}
+.listconsultation__wrapper-right .listconsultation-tile:not(:first-child),
+.timedeclaration__wrapper-right .timedeclaration-tile:not(:first-child) {
+	margin-top: 16px;
+}
+@media screen and (min-width: 1024px) {
+	.listconsultation__wrapper-right .listconsultation-tile:not(:first-child),
+	.timedeclaration__wrapper-right .timedeclaration-tile:not(:first-child) {
+		margin-top: 28px;
+	}
+}
+@media screen and (min-width: 1024px) {
+	.listconsultation__wrapper-right,
+	.timedeclaration__wrapper-right {
+		margin-left: 45px;
+		width: 50%;
+	}
+}
+@media screen and (min-width: 1440px) {
+	.listconsultation__wrapper-right,
+	.timedeclaration__wrapper-right {
+		margin-left: 90px;
+	}
+}
+
+@media (min-width: 600px) {
+	.featuresofaccounting__tile:nth-child(1),
+	.jaraaccounting__tile:nth-child(1),
+	.timedeclaration__tile:nth-child(1),
+	.declorationtaxingeorgia__tile:nth-child(1) {
+		grid-column: 1 / span 2;
+		grid-row: 1;
+	}
+	.featuresofaccounting__tile:nth-child(4),
+	.jaraaccounting__tile:nth-child(4),
+	.timedeclaration__tile:nth-child(4),
+	.declorationtaxingeorgia__tile:nth-child(4) {
+		grid-column: 1 / span 2;
+		grid-row: 3;
+	}
+}
+@media screen and (min-width: 1200px) {
+	.featuresofaccounting__tile,
+	.jaraaccounting__tile,
+	.timedeclaration__tile,
+	.declorationtaxingeorgia__tile {
+		padding: 70px;
+	}
+}
+@media screen and (min-width: 600px) {
+	.featuresofaccounting__tile:first-child,
+	.jaraaccounting__tile:first-child,
+	.timedeclaration__tile:first-child,
+	.declorationtaxingeorgia__tile:first-child {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		gap: 16px;
+	}
+}
+.featuresofaccounting__tile:first-child img,
+.jaraaccounting__tile:first-child img,
+.timedeclaration__tile:first-child img,
+.declorationtaxingeorgia__tile:first-child img {
+	margin-bottom: -24px;
+	margin-top: 16px;
+	margin-left: auto;
+	margin-right: auto;
+}
+@media screen and (min-width: 600px) {
+	.featuresofaccounting__tile:first-child img,
+	.jaraaccounting__tile:first-child img,
+	.timedeclaration__tile:first-child img,
+	.declorationtaxingeorgia__tile:first-child img {
+		margin-top: 0;
+	}
+}
+@media screen and (min-width: 1200px) {
+	.featuresofaccounting__tile:first-child img,
+	.jaraaccounting__tile:first-child img,
+	.timedeclaration__tile:first-child img,
+	.declorationtaxingeorgia__tile:first-child img {
+		margin-bottom: -70px;
+		margin-top: -47px;
+	}
+}
+.featuresofaccounting__tile:first-child .featuresofaccounting__tile-inner,
+.jaraaccounting__tile:first-child .featuresofaccounting__tile-inner,
+.timedeclaration__tile:first-child .featuresofaccounting__tile-inner,
+.declorationtaxingeorgia__tile:first-child .featuresofaccounting__tile-inner {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+}
+@media screen and (min-width: 600px) {
+	.featuresofaccounting__tile:first-child .featuresofaccounting__tile-inner,
+	.jaraaccounting__tile:first-child .featuresofaccounting__tile-inner,
+	.timedeclaration__tile:first-child .featuresofaccounting__tile-inner,
+	.declorationtaxingeorgia__tile:first-child .featuresofaccounting__tile-inner {
+		width: 50%;
+	}
+}
+.featuresofaccounting__tile:first-child .featuresofaccounting-tile_title,
+.featuresofaccounting__tile:first-child .featuresofaccounting-tile_text,
+.jaraaccounting__tile:first-child .featuresofaccounting-tile_title,
+.jaraaccounting__tile:first-child .featuresofaccounting-tile_text,
+.timedeclaration__tile:first-child .featuresofaccounting-tile_title,
+.timedeclaration__tile:first-child .featuresofaccounting-tile_text,
+.declorationtaxingeorgia__tile:first-child .featuresofaccounting-tile_title,
+.declorationtaxingeorgia__tile:first-child .featuresofaccounting-tile_text {
+	max-width: 451px;
+}
+.featuresofaccounting__tile:last-child,
+.jaraaccounting__tile:last-child,
+.timedeclaration__tile:last-child,
+.declorationtaxingeorgia__tile:last-child {
+	overflow-x: hidden;
+}
+@media screen and (min-width: 600px) {
+	.featuresofaccounting__tile:last-child,
+	.jaraaccounting__tile:last-child,
+	.timedeclaration__tile:last-child,
+	.declorationtaxingeorgia__tile:last-child {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: justify;
+		-ms-flex-pack: justify;
+		justify-content: space-between;
+		gap: 16px;
+	}
+}
+.featuresofaccounting__tile:last-child img,
+.jaraaccounting__tile:last-child img,
+.timedeclaration__tile:last-child img,
+.declorationtaxingeorgia__tile:last-child img {
+	padding-top: 24px;
+	min-width: 335px;
+	min-height: 160px;
+}
+@media screen and (min-width: 600px) {
+	.featuresofaccounting__tile:last-child img,
+	.jaraaccounting__tile:last-child img,
+	.timedeclaration__tile:last-child img,
+	.declorationtaxingeorgia__tile:last-child img {
+		margin-right: -110px;
+		padding-top: 0;
+	}
+}
+.featuresofaccounting__tile:last-child .featuresofaccounting__tile-inner,
+.jaraaccounting__tile:last-child .featuresofaccounting__tile-inner,
+.timedeclaration__tile:last-child .featuresofaccounting__tile-inner,
+.declorationtaxingeorgia__tile:last-child .featuresofaccounting__tile-inner {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+}
+@media screen and (min-width: 600px) {
+	.featuresofaccounting__tile:last-child .featuresofaccounting__tile-inner,
+	.jaraaccounting__tile:last-child .featuresofaccounting__tile-inner,
+	.timedeclaration__tile:last-child .featuresofaccounting__tile-inner,
+	.declorationtaxingeorgia__tile:last-child .featuresofaccounting__tile-inner {
+		width: 50%;
+	}
+}
+.featuresofaccounting__tile:last-child .featuresofaccounting-tile_title,
+.featuresofaccounting__tile:last-child .featuresofaccounting-tile_text,
+.jaraaccounting__tile:last-child .featuresofaccounting-tile_title,
+.jaraaccounting__tile:last-child .featuresofaccounting-tile_text,
+.timedeclaration__tile:last-child .featuresofaccounting-tile_title,
+.timedeclaration__tile:last-child .featuresofaccounting-tile_text,
+.declorationtaxingeorgia__tile:last-child .featuresofaccounting-tile_title,
+.declorationtaxingeorgia__tile:last-child .featuresofaccounting-tile_text {
+	max-width: 451px;
+}
+
+@media screen and (max-width: 768px) {
+	.correctionerror-tile {
+		background-color: transparent;
+		padding: 0;
+	}
+}
+@media screen and (min-width: 1024px) {
+	.correctionerror-tile {
+		padding: 56px 70px 70px;
+	}
+}
+.correctionerror-tile_title {
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 125%;
+	margin-bottom: 16px;
+}
+@media screen and (min-width: 768px) {
+	.correctionerror-tile_title {
+		font-size: 36px;
+		margin-bottom: 20px;
+	}
+}
+@media screen and (min-width: 1024px) {
+	.correctionerror-tile_title {
+		font-weight: 700;
+		font-size: 48px;
+		line-height: 125%;
+	}
+}
+.correctionerror-tile_text {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 145%;
+	color: #485b63;
+}
+.correctionerror-tile_text p + p {
+	margin-top: 16px;
+}
+.correctionerror-tile_link {
+	width: 100%;
+	height: 69px;
+	background-color: #54b7e3;
+	margin-top: 32px;
+	border-radius: 10px;
+	color: #fcfdff;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 145%;
+}
+@media screen and (min-width: 768px) {
+	.correctionerror-tile_link {
+		display: none;
+	}
+}
+
+.jaraaccounting__tile:first-child {
+	padding: 0;
+	padding-top: 24px;
+	padding-bottom: 24px;
+	display: block;
+}
+.jaraaccounting__tile:first-child .jaraaccounting__tile-inner {
+	padding-left: 24px;
+	padding-right: 24px;
+}
+.jaraaccounting__tile:first-child img {
+	margin-bottom: 0px;
+	margin-top: 24px;
+	width: 100%;
+}
+@media screen and (min-width: 1024px) {
+	.jaraaccounting__tile:first-child {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: justify;
+		-ms-flex-pack: justify;
+		justify-content: space-between;
+		gap: 16px;
+		padding: 0;
+	}
+	.jaraaccounting__tile:first-child .jaraaccounting__tile-inner {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+		-ms-flex-line-pack: justify;
+		align-content: space-between;
+		max-width: 480px;
+	}
+	.jaraaccounting__tile:first-child .wrapper__img {
+		width: 50%;
+		position: relative;
+	}
+	.jaraaccounting__tile:first-child .wrapper__img::after {
+		position: absolute;
+		content: '';
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-image: -webkit-gradient(linear, left top, right top, color-stop(2%, #f3f6f9), color-stop(10%, rgba(243, 246, 249, 0)));
+		background-image: -o-linear-gradient(left, #f3f6f9 2%, rgba(243, 246, 249, 0) 10%);
+		background-image: linear-gradient(90deg, #f3f6f9 2%, rgba(243, 246, 249, 0) 10%);
+	}
+	.jaraaccounting__tile:first-child img {
+		width: 100%;
+		margin-top: 0;
+		margin-right: 0;
+	}
+}
+@media screen and (min-width: 1200px) {
+	.jaraaccounting__tile:first-child {
+		padding-left: 70px;
+	}
+	.jaraaccounting__tile:first-child .jaraaccounting__tile-inner {
+		padding: 0;
+	}
+}
+.jaraaccounting__tile:last-child {
+	display: block;
+}
+
+.timedeclaration__tile:first-child {
+	background-color: transparent;
+	padding: 0;
+}
+@media screen and (min-width: 600px) {
+	.timedeclaration__tile:first-child {
+		grid-column: 1;
+	}
+}
+@media screen and (min-width: 1024px) {
+	.timedeclaration__tile:first-child {
+		grid-column: 1 / span 2;
+		grid-row: 1;
+	}
+}
+.timedeclaration__tile:last-child {
+	display: block;
+}
+.timedeclaration-tile_link-desktop {
+	-webkit-box-align: baseline;
+	-ms-flex-align: baseline;
+	align-items: baseline;
+}
+@media screen and (min-width: 600px) {
+	.timedeclaration__inner.grid1_2 {
+		grid-template-columns: repeat(1, 1fr);
+		gap: 16px;
+	}
+}
+@media screen and (min-width: 1024px) {
+	.timedeclaration__inner.grid1_2 {
+		grid-template-columns: repeat(2, 1fr);
+		gap: 32px;
+		padding: 0;
+		background-color: transparent;
+		border-radius: 10px;
+	}
+}
+.timedeclaration__wrapper {
+	width: 100%;
+}
+@media screen and (min-width: 1024px) {
+	.timedeclaration__wrapper-left {
+		width: 50%;
+	}
+	.timedeclaration__wrapper-right {
+		width: 50%;
+		margin-left: 20px;
+	}
+}
+@media screen and (min-width: 1200px) {
+	.timedeclaration__wrapper-right {
+		margin-left: 100px;
+	}
+}
+@media screen and (min-width: 1440px) {
+	.timedeclaration__wrapper-right {
+		margin-left: 60px;
+	}
+}
+
+@media (min-width: 600px) {
+	.declorationtaxingeorgia__wrapper.grid2_1 {
+		grid-template-columns: repeat(1, 1fr);
+	}
+}
+@media (min-width: 768px) {
+	.declorationtaxingeorgia__wrapper.grid2_1 {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+.declorationtaxingeorgia-tile:nth-child(3) {
+	padding: 0;
+	padding-top: 24px;
+}
+.declorationtaxingeorgia-tile:nth-child(3) .declorationtaxingeorgia-tile_title,
+.declorationtaxingeorgia-tile:nth-child(3) .declorationtaxingeorgia-tile_text {
+	padding-left: 24px;
+	padding-right: 24px;
+}
+.declorationtaxingeorgia-tile:nth-child(3) .declorationtaxingeorgia-tile_title p + p,
+.declorationtaxingeorgia-tile:nth-child(3) .declorationtaxingeorgia-tile_text p + p {
+	margin-top: 16px;
+}
+.declorationtaxingeorgia-tile:nth-child(3) img {
+	width: 100%;
+}
+@media (min-width: 768px) {
+	.declorationtaxingeorgia-tile:nth-child(3) {
+		grid-column: 1 / span 2;
+		grid-row: 2;
+	}
+}
+@media screen and (min-width: 1024px) {
+	.declorationtaxingeorgia-tile:nth-child(3) {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: row;
+		flex-direction: row;
+		-webkit-box-align: end;
+		-ms-flex-align: end;
+		align-items: end;
+		-webkit-box-pack: justify;
+		-ms-flex-pack: justify;
+		justify-content: space-between;
+		row-gap: 16px;
+	}
+	.declorationtaxingeorgia-tile:nth-child(3) .declorationtaxingeorgia-tile_inner {
+		width: 50%;
+	}
+	.declorationtaxingeorgia-tile:nth-child(3) .declorationtaxingeorgia-tile_text {
+		padding-bottom: 24px;
+	}
+}
+@media screen and (min-width: 1115px) {
+	.declorationtaxingeorgia-tile:nth-child(3) {
+		-webkit-box-align: center;
+		-ms-flex-align: center;
+		align-items: center;
+		padding-top: 0;
+	}
+}
+
+@media (min-width: 600px) {
+	.ndsingeorgia__wrapper.grid2col {
+		grid-template-columns: repeat(1, 1fr);
+	}
+}
+@media (min-width: 768px) {
+	.ndsingeorgia__wrapper.grid2col {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+.ndsingeorgia-tile_text p + p {
+	margin-top: 16px;
+}

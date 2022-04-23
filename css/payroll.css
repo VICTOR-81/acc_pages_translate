@@ -1,0 +1,240 @@
+.payroll_range_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+@media screen and (min-width: 1024px) {
+  .payroll_range_container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+.payroll_range {
+  width: 100%;
+}
+@media screen and (min-width: 1024px) {
+  .payroll_range {
+    width: 50%;
+  }
+}
+
+.payroll_range_element {
+  margin-bottom: 20px;
+}
+.payroll_range_element label {
+  font-weight: 500;
+  font-size: 16px;
+  color: #485b63;
+  margin-bottom: 15px;
+  display: block;
+}
+.payroll_range_element input {
+  display: block;
+  width: 100%;
+}
+.payroll_range_element input[type=range] {
+  height: 3px;
+}
+.payroll_range_element input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  background: #54b7e3;
+  height: 15px;
+  width: 15px;
+  background-color: #54b7e3;
+  -webkit-box-shadow: 0 0 0px 8.6px rgba(84, 183, 227, 0.2);
+          box-shadow: 0 0 0px 8.6px rgba(84, 183, 227, 0.2);
+  border-radius: 50%;
+  cursor: ew-resize;
+}
+.payroll_range_element input[type=range]::-webkit-slider-runnable-track {
+  border: none;
+  border-radius: none;
+}
+.payroll_range_element input[type=number] {
+  -webkit-appearance: none;
+  text-align: center;
+  -moz-appearance: none;
+       appearance: none;
+  height: 75px;
+  font-size: 22px;
+  background: #f3f6f9;
+  border-radius: 10px 10px 10px 0px;
+}
+.payroll_range_element input[type=number]::-webkit-outer-spin-button, .payroll_range_element input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+  -moz-appearance: textfield;
+}
+
+.payroll_action {
+  width: 100%;
+  margin-top: 45px;
+  padding: 32px 16px;
+  background: #f3f6f9;
+  border-radius: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.payroll_action p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 130%;
+  text-align: center;
+  margin-bottom: 24px;
+}
+.payroll_action p span {
+  color: #54b7e3;
+  font-size: 24px;
+}
+@media screen and (min-width: 1024px) {
+  .payroll_action {
+    width: 48%;
+    margin: 0;
+    padding: 0 120px;
+    height: 345px;
+    margin-top: 30px;
+  }
+  .payroll_action p {
+    font-size: 24px;
+  }
+  .payroll_action p span {
+    font-size: 32px;
+  }
+}
+
+.payroll_select_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.payroll_select_container .payroll_title {
+  margin-bottom: 30px;
+}
+.payroll_select_container .payroll_title p {
+  display: none;
+}
+.payroll_select_container .payroll_selection {
+  background: #f3f6fd;
+  border-radius: 10px;
+  padding: 24px 16px;
+}
+.payroll_select_container .payroll_selection .payroll_selector {
+  position: relative;
+  margin-bottom: 16px;
+}
+.payroll_select_container .payroll_selection .payroll_selector .select_header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 16px;
+  background: #e2eafd;
+  border-radius: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: 500;
+  height: 60px;
+  font-size: 14px;
+}
+.payroll_select_container .payroll_selection .payroll_selector .select_header button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-weight: 600;
+  font-size: 16px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.payroll_select_container .payroll_selection .payroll_selector .select_header button img {
+  margin-left: 8px;
+}
+.payroll_select_container .payroll_selection .payroll_selector .select_options {
+  position: absolute;
+  display: none;
+  width: 100%;
+  background: #e2eafd;
+  z-index: 2;
+  border-radius: 10px;
+}
+.payroll_select_container .payroll_selection .payroll_selector .select_options div {
+  height: 60px;
+  width: 100%;
+  padding: 0 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: #d2dffc;
+  border-radius: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.payroll_select_container .payroll_selection .payroll_selector .select_options div + div {
+  margin-top: 10px;
+}
+.payroll_select_container .payroll_selection .payroll_selector .payroll_select_show {
+  display: block;
+}
+@media screen and (min-width: 768px) {
+  .payroll_select_container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .payroll_select_container .payroll_selection {
+    width: 45%;
+  }
+  .payroll_select_container .payroll_selection .payroll_selector {
+    margin-bottom: 24px;
+  }
+  .payroll_select_container .payroll_title {
+    width: 45%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .payroll_select_container .payroll_selection {
+    padding: 40px 70px;
+  }
+}

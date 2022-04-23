@@ -1,0 +1,87 @@
+.post-content * {
+	line-height: 190%;
+}
+.blog-single h1.single-blog {
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 125%;
+	margin-bottom: 32px;
+}
+@media screen and (min-width: 768px) {
+	.blog-single h1.single-blog {
+		font-size: 48px;
+		line-height: 135%;
+		margin-bottom: 38px;
+	}
+}
+.post-meta-categories {
+	display: none;
+}
+.post-meta-date {
+	text-align: right;
+	margin-bottom: 20px;
+	color: #dddddd;
+}
+.wpb_content_element {
+	margin-bottom: 20px;
+}
+ul.list.triangle {
+	margin-bottom: 20px;
+}
+ul.list.triangle li {
+	position: relative;
+	margin-bottom: 8px;
+	margin-left: 15px;
+}
+ul.list.triangle li::before {
+	content: '•';
+	height: 5px;
+	font-size: 15px;
+	width: 5px;
+	position: absolute;
+	left: -15px;
+	color: #54b7e3;
+}
+blockquote {
+	background: #54b8e336;
+	border-left: 7px solid #54b7e3;
+	padding: 0.5em 10px;
+	margin-bottom: 20px;
+}
+h2.heading-middle {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 125%;
+	margin-bottom: 20px;
+	text-align: left;
+}
+@media screen and (min-width: 768px) {
+	h2.heading-middle {
+		font-size: 30px;
+		line-height: 135%;
+		margin-bottom: 25px;
+	}
+}
+.panel-group .panel {
+	padding: 20px 0 10px 0;
+	border-bottom: 1px solid#dddddd70;
+}
+.panel-group .panel-title {
+	margin-bottom: 10px;
+}
+.panel-group .panel-collapse p {
+	margin-bottom: 5px;
+}
+.panel-group .panel-body {
+	padding-left: 10px;
+}
+.wpcf7,
+figure {
+	display: none;
+}
+
+article.post img {
+	width: 100%;
+	object-fit: cover;
+	margin-bottom: 20px;
+}

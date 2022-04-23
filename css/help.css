@@ -1,0 +1,103 @@
+.help__title {
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 125%;
+	margin-bottom: 24px;
+}
+@media screen and (min-width: 768px) {
+	.help__title {
+		font-size: 36px;
+	}
+}
+@media screen and (min-width: 1024px) {
+	.help__title {
+		font-weight: 700;
+		font-size: 48px;
+		line-height: 135%;
+		margin-bottom: 4px;
+	}
+}
+.help__wrapper {
+	border-top: 1px solid #dddddd;
+}
+@media screen and (min-width: 768px) {
+	.help__wrapper {
+		border-top: transparent;
+	}
+}
+.help__item-wrapper {
+	border-bottom: 1px solid #dddddd;
+	cursor: pointer;
+	position: relative;
+}
+.help__item-title {
+	padding-top: 24px;
+	padding-bottom: 24px;
+	padding-right: 40px;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 145%;
+	color: #3e3e3e;
+	position: relative;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+.help__item-title::after {
+	position: absolute;
+	content: url('../images/icons/Vectorplus.svg');
+	width: 32px;
+	height: 32px;
+	right: 0;
+	z-index: 1;
+	transition: all ease 0.5s;
+}
+@media screen and (min-width: 768px) {
+	.help__item-title::after {
+		content: url('../images/icons/arrow-footer-down.svg');
+		width: 17px;
+	}
+}
+@media screen and (min-width: 768px) {
+	.help__item-title {
+		font-weight: 500;
+		font-size: 24px;
+		line-height: 130%;
+	}
+}
+@media screen and (min-width: 1024px) {
+	.help__item-title {
+		padding-top: 34px;
+		padding-bottom: 36px;
+	}
+}
+.help__item-text {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 145%;
+	color: #6e777a;
+	max-height: 0;
+	border-top: 1px solid #dddddd;
+	font-size: 18px;
+	line-height: 24px;
+	overflow: hidden;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.rotate::after {
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+@media screen and (min-width: 768px) {
+	.rotate::after {
+		-webkit-transform: rotate(180deg);
+		-ms-transform: rotate(180deg);
+		transform: rotate(180deg);
+	}
+}
